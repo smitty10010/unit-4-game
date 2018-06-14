@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js" defer></script>
 </head>
 
 <body>
@@ -18,16 +19,19 @@
 
     <main>
         <article>Game rules</article>
-        <aside id="computer-guess"></aside>
+        <aside>
+            <h2>Computer Guess</h2>
+            <p>Computer's Number: <span id="computer-guess"></span></p>
+        </aside>
         <aside id="win-loss">
             <p>Wins:<span id="wins"></span></p>
             <p>Losses:<span id="losses"></span></p>
         </aside>
         <article>
-            <img id="gem-1" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img id="gem-2" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img id="gem-3" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img id="gem-4" src="http://via.placeholder.com/197x146" alt="random gray image" />
+            <img class="gems" id="gem-1" src="http://via.placeholder.com/197x146" alt="random gray image" />
+            <img class="gems" id="gem-2" src="http://via.placeholder.com/197x146" alt="random gray image" />
+            <img class="gems" id="gem-3" src="http://via.placeholder.com/197x146" alt="random gray image" />
+            <img class="gems" id="gem-4" src="http://via.placeholder.com/197x146" alt="random gray image" />
 
         </article>
         <article>
