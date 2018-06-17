@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Crystal Collector</title>
+    <title>Breaking Bad Crystal Making Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -14,28 +14,30 @@
 
 <body>
     <header>
-        <h1>Crystal Collector</h1>
+        <h1>Breaking Bad</h1>
     </header>
 
     <main>
-        <article>Game rules</article>
-        <aside>
-            <h2>Computer Guess</h2>
-            <p>Computer's Number: <span id="computer-guess"></span></p>
+        <article id="rules">Game rules (click to expand)</article>
+        <p id="rules-expanded">Walter White has sent you the ingredients to make his special product. He has provided you some ratios to sum the ingrediants in order to mix the product properly. If you are able to match White's sum you make the product, however if you go over
+            his sum then the process may blowup in your face. Each one of the images below contain a random value. As you click the image that value is added to your mixture. Good luck!</p>
+        <aside class="recipe">
+            <h2>Recipe</h2>
+            <p>Sum of Ingrediants: <span id="computer-guess"></span></p>
         </aside>
         <aside id="win-loss">
             <p>Wins:<span id="wins"></span></p>
             <p>Losses:<span id="losses"></span></p>
         </aside>
-        <article>
-            <img class="gems" id="gem-1" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img class="gems" id="gem-2" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img class="gems" id="gem-3" src="http://via.placeholder.com/197x146" alt="random gray image" />
-            <img class="gems" id="gem-4" src="http://via.placeholder.com/197x146" alt="random gray image" />
+        <article class="images">
+            <img class="gems" id="gem-1" src="assets/images/Acetone.jpg" alt="image of acetone" />
+            <img class="gems" id="gem-2" src="assets/images/drano.jpg" alt="image of drano" />
+            <img class="gems" id="gem-3" src="assets/images/phosphorus.jpg" alt="image of phosphorus" />
+            <img class="gems" id="gem-4" src="assets/images/sudafed.jpg" alt="image of sudafed" />
 
         </article>
-        <article>
-            <p>Your total score is:</p>
+        <article class="mixture">
+            <p>Your mixture:</p>
             <p><span id="user-number"></span></p>
         </article>
     </main>

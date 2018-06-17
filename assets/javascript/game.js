@@ -5,6 +5,10 @@ $(document).ready(function() {
     var wins = 0;
     var loss = 0;
 
+    $("#rules").click(function() {
+        $("#rules-expanded").slideToggle('slow');
+    })
+
     //Game reset function
     var reset = function() {
         computerGuess();

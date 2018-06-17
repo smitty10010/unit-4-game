@@ -1,0 +1,81 @@
+body {
+    background-image: url(../images/bb-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+img {
+    width: 197px;
+    height: 146px;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-left: 50%;
+    background-color: white;
+    margin-right: 36%;
+    border: 1px solid black;
+}
+
+#rules {
+    margin-left: 21%;
+    margin-right: 67%;
+    margin-bottom: .5%;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: .5%;
+    
+}
+
+#rules-expanded {
+    display: none;
+    background-color: white;
+    padding-right: 75%;
+} 
+
+
+.recipe {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color:white;
+    border: 1px solid black;
+    margin-bottom: .5%;
+
+}
+
+.recipe h2 {
+        padding:0% 0% 0% 3%;
+
+}
+
+.recipe p {
+        padding:0% 0% 0% 3%;
+
+}
+
+#win-loss {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: .5%;
+}
+
+#win-loss p {
+        padding:0% 0% 0% 3%;
+}
+
+.images {
+    margin-left: 20%;    
+}
+
+.mixture {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.mixture p{
+    padding:0% 0% 0% 3%;
+}
